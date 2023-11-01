@@ -1,0 +1,31 @@
+.container{
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+}
+button{
+    width: 250px;
+    padding: 5px 30px;
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(126, 126, 165);
+    border: none;
+    font: inherit;
+    cursor: pointer;
+}
+ol, ul {
+    list-style: none;
+}
+.menu{
+    display: block;
+}
+.block--menu{
+    display: flex;
+    margin: 20px auto;
+}
+.block--menu button{
+    width: 250px;
+    padding: 5 px 10px;
+    height: 30px;
+    background-color: rgb(171, 206, 115);
+}
